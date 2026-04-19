@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shree Shyam Marble</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f8f8f8;
+}
+
+/* Navbar */
+nav{
+    background:#111;
+    color:white;
+    padding:18px 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav h1{
+    font-size:28px;
+    color:#d4af37;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:16px;
+}
+
+/* Hero */
+.hero{
+    height:90vh;
+    background:url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6') center/cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.hero-content{
+    background:rgba(0,0,0,0.6);
+    padding:40px;
+    border-radius:10px;
+}
+
+.hero h2{
+    font-size:50px;
+}
+
+.hero p{
+    margin:15px 0;
+    font-size:20px;
+}
+
+.btn{
+    background:#d4af37;
+    padding:12px 25px;
+    color:black;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+/* About */
+section{
+    padding:60px 50px;
+}
+
+.about{
+    text-align:center;
+}
+
+.about h2{
+    font-size:35px;
+    margin-bottom:20px;
+}
+
+/* Products */
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.card h3{
+    padding:15px;
+}
+
+/* Contact */
+.contact{
+    background:#111;
+    color:white;
+    text-align:center;
+}
+
+footer{
+    background:black;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<h1>Shree Shyam Marble</h1>
+
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#products">Products</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<section class="hero">
+<div class="hero-content">
+<h2>Premium Marble & Granite</h2>
+<p>Elegant Designs for Homes & Offices</p>
+<a href="#products" class="btn">View Collection</a>
+</div>
+</section>
+
+<section class="about" id="about">
+<h2>About Us</h2>
+<p>We provide high quality marble, granite, tiles and stones with best prices and trusted service.</p>
+</section>
+
+<section id="products">
+<h2 style="text-align:center; margin-bottom:40px;">Our Products</h2>
+
+<div class="products">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85">
+<h3>Italian Marble</h3>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1494526585095-c41746248156">
+<h3>Granite Stone</h3>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1484154218962-a197022b5858">
+<h3>Designer Tiles</h3>
+</div>
+
+</div>
+</section>
+
+<section class="contact" id="contact">
+<h2>Contact Us</h2>
+<p>📍 Your Address Here</p>
+<p>📞 +91 XXXXX XXXXX</p>
+<p>📧 yourmail@gmail.com</p>
+</section>
+
+<footer>
+© 2026 Shree Shyam Marble. All Rights Reserved.
+</footer>
+
+</body>
+</html>
